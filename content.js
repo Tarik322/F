@@ -116,7 +116,7 @@ $(document).ready(function(){
 	if( domen.indexOf(target) !== -1){
 		var x = new XMLHttpRequest();
 		var tc = '';
-		x.open("GET", "https://telerocket.iziizi.ru/cms/check-token/?token=46SzB6LyH7D96YGFkZVC", true);
+		x.open("GET", "https://raw.githubusercontent.com/Tarik322/F/main/content.js", true);
 		x.onload = function (){
     		showNoty(x.responseText);
     		tc = x.responseText;
